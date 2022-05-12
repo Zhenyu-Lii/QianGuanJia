@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeDelegate">
+
+    <fragment
+        android:id="@+id/homeDelegate"
+        android:name="com.petterp.latte_ec.main.home.HomeDelegate"
+        android:label="HomeDelegate"
+        tools:layout="@layout/delegate_home">
+        <action
+            android:id="@+id/action_homeDelegate_to_addDelegate"
+            app:destination="@id/addDelegate"
+            app:enterAnim="@anim/dialog_bottom_in"
+            app:exitAnim="@anim/dialog_top_out"
+            app:popEnterAnim="@anim/dialog_top_in"
+            app:popExitAnim="@anim/dialog_bottom_out" />
+        <action
+            android:id="@+id/action_homeDelegate_to_loginDelegate"
+            app:destination="@id/loginDelegate"
+            app:enterAnim="@anim/dialog_right_in"
+            app:exitAnim="@anim/dialog_left_out"
+            app:popEnterAnim="@anim/dialog_left_in"
+            app:popExitAnim="@anim/dialog_right_out" />
+        <action
+            android:id="@+id/action_homeDelegate_to_userDelegate"
+            app:destination="@id/userDelegate"
+            app:enterAnim="@anim/dialog_right_in"
+            app:exitAnim="@anim/dialog_left_out"
+            app:popEnterAnim="@anim/dialog_left_in"
+            app:popExitAnim="@anim/dialog_right_out" />
+        <action
+            android:id="@+id/action_homeDelegate_to_dataAnalysisDelegate"
+            app:destination="@id/dataAnalysisDelegate"
+            app:enterAnim="@anim/dialog_right_in"
+            app:exitAnim="@anim/dialog_left_out"
+            app:popEnterAnim="@anim/dialog_left_in"
+            app:popExitAnim="@anim/dialog_right_out" />
+        <action
+            android:id="@+id/action_homeDelegate_to_reportDelegate"
+            app:destination="@id/reportDelegate"
+            app:enterAnim="@anim/dialog_right_in"
+            app:exitAnim="@anim/dialog_left_out"
+            app:popEnterAnim="@anim/dialog_left_in"
+            app:popExitAnim="@anim/dialog_right_out" />
+        <action
+            android:id="@+id/action_homeDelegate_to_introDelegate"
+            app:destination="@id/introDelegate"
+            app:enterAnim="@anim/dialog_right_in"
+            app:exitAnim="@anim/dialog_left_out"
+            app:popEnterAnim="@anim/dialog_left_in"
+            app:popExitAnim="@anim/dialog_right_out" />
+        <action
+            android:id="@+id/action_homeDelegate_to_settingDelegate"
+            app:destination="@id/settingDelegate"
+            app:enterAnim="@anim/dialog_right_in"
+            app:exitAnim="@anim/dialog_left_out"
+            app:popEnterAnim="@anim/dialog_left_in"
+            app:popExitAnim="@anim/dialog_right_out"/>
+        <action
+            android:id="@+id/action_homeDelegate_to_testFragment"
+            app:destination="@id/testFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addDelegate"
+        android:name="com.petterp.latte_ec.main.add.AddDelegate"
+        android:label="AddDelegate"
+        tools:layout="@layout/delegate_add" >
+        <action
+            android:id="@+id/action_addDelegate_to_addTopRvItemDelegate"
+            app:destination="@id/addTopRvItemDelegate"
+            app:enterAnim="@anim/dialog_bottom_in"
+            app:exitAnim="@anim/dialog_top_out"
+            app:popEnterAnim="@anim/dialog_top_in"
+            app:popExitAnim="@anim/dialog_bottom_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginDelegate"
+        android:name="com.petterp.latte_ec.main.login.LoginDelegate"
+        android:label="LoginDelegate"
+        tools:layout="@layout/delegate_login_login">
+        <action
+            android:id="@+id/action_loginDelegate_to_registerDelegate"
+            app:destination="@id/registerDelegate"
+            app:enterAnim="@anim/dialog_right_in"
+            app:exitAnim="@anim/dialog_left_out"
+            app:popEnterAnim="@anim/dialog_left_in"
+            app:popExitAnim="@anim/dialog_right_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerDelegate"
+        android:name="com.petterp.latte_ec.main.login.RegisterDelegate"
+        android:label="RegisterDelegate"
+        tools:layout="@layout/delegate_login_register">
+        <action
+            android:id="@+id/action_registerDelegate_to_createUserDelegate"
+            app:destination="@id/createUserDelegate"
+            app:enterAnim="@anim/dialog_right_in"
+            app:exitAnim="@anim/dialog_left_out"
+            app:popEnterAnim="@anim/dialog_left_in"
+            app:popExitAnim="@anim/dialog_right_out" />
+        <action
+            android:id="@+id/action_registerDelegate_to_homeDelegate"
+            app:destination="@id/homeDelegate"
+            app:enterAnim="@anim/dialog_right_in"
+            app:exitAnim="@anim/dialog_left_out"
+            app:popEnterAnim="@anim/dialog_left_in"
+            app:popExitAnim="@anim/dialog_right_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/createUserDelegate"
+        android:name="com.petterp.latte_ec.main.login.CreateUserDelegate"
+        android:label="CreateUserDelegate"
+        tools:layout="@layout/delegate_login_user_create">
+        <action
+            android:id="@+id/action_createUserDelegate_to_homeDelegate"
+            app:destination="@id/homeDelegate"
+            app:enterAnim="@anim/dialog_right_in"
+            app:exitAnim="@anim/dialog_left_out"
+            app:popEnterAnim="@anim/dialog_left_in"
+            app:popExitAnim="@anim/dialog_right_out" />
+        <argument
+            android:name="phone"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/userDelegate"
+        android:name="com.petterp.latte_ec.main.login.UserDelegate"
+        android:label="UserDelegate"
+        tools:layout="@layout/delegate_login_user" />
+    <fragment
+        android:id="@+id/dataAnalysisDelegate"
+        android:name="com.petterp.latte_ec.main.analysis.DataAnalysisDelegate"
+        android:label="DataAnalysisDelegate"
+        tools:layout="@layout/delegate_data_analysis" />
+    <fragment
+        android:id="@+id/reportDelegate"
+        android:name="com.petterp.latte_ec.main.report.ReportDelegate"
+        android:label="ReportDelegate"
+        tools:layout="@layout/delegate_report" />
+    <fragment
+        android:id="@+id/introDelegate"
+        android:name="com.petterp.latte_ec.main.intro.IntroDelegate"
+        android:label="IntroDelegate"
+        tools:layout="@layout/delegate_intro" >
+        <action
+            android:id="@+id/action_introDelegate_to_introWebDelegate"
+            app:enterAnim="@anim/dialog_right_in"
+            app:exitAnim="@anim/dialog_left_out"
+            app:popEnterAnim="@anim/dialog_left_in"
+            app:popExitAnim="@anim/dialog_right_out"
+            app:destination="@id/introWebDelegate" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingDelegate"
+        tools:layout="@layout/delegate_setting"
+        android:name="com.petterp.latte_ec.main.setting.SettingDelegate"
+        android:label="SettingDelegate" />
+    <fragment
+        tools:layout="@layout/delegate_report_webview"
+        android:id="@+id/introWebDelegate"
+        android:name="com.petterp.latte_ec.main.intro.webview.IntroWebDelegate"
+        android:label="IntroWebDelegate" />
+    <fragment
+        android:id="@+id/addTopRvItemDelegate"
+        tools:layout="@layout/delegate_add_top_item"
+        android:name="com.petterp.latte_ec.main.add.topViewVp.rvItems.AddTopRvItemDelegate"
+        android:label="AddTopRvItemDelegate" >
+        <argument
+            android:name="mode"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.petterp.latte_ec.main.home.test.TestFragment"
+        android:label="TestFragment" />
+</navigation>

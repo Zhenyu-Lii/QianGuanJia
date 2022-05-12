@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.mob.sdk'
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        applicationId "com.petterp.record"
+        minSdkVersion 16
+        targetSdkVersion 29
+        multiDexEnabled true
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        maxSdkVersion 28
+    }
+    buildTypes {
+        release {
+            //开启混淆
+            minifyEnabled true
+            //Zipalign优化
+            zipAlignEnabled true
+            //前一部分代表系统默认的android程序的混淆文件，该文件已经包含了基本的混淆声明
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+    MobSDK {
+        appKey "2be2d426d5fb8"
+        appSecret "5828fa70de47daeeacc67f79e4a34d10"
+        ShareSDK {
+            loopShare true
+            devInfo {
+                QQ {
+                    appId "101766068"
+                    appKey "f0f2dc82d49d2bf59ed1b49df9b0378f"
+                }
+            }
+        }
+        SMSSDK {
+            autoSMS true
+        }
+    }
+
+}
+
+dependencies {
+    implementation project(path: ':latte_ec')
+}

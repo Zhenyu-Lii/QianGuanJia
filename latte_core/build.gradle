@@ -1,0 +1,107 @@
+apply plugin: 'com.android.library'
+apply plugin : "androidx.navigation.safeargs"
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            //开启混淆
+            minifyEnabled true
+            //Zipalign优化
+            zipAlignEnabled true
+            //前一部分代表系统默认的android程序的混淆文件，该文件已经包含了基本的混淆声明
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api 'androidx.appcompat:appcompat:1.0.2'
+    testImplementation 'junit:junit:4.13-beta-3'
+    api 'androidx.constraintlayout:constraintlayout:1.1.3'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //butterknife
+    api 'com.jakewharton:butterknife:10.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+
+    //MD风格包
+    api 'com.google.android.material:material:1.0.0'
+    api 'androidx.recyclerview:recyclerview:1.0.0'
+
+
+    //RecyclerView依赖库
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.45'
+
+    //google AutoValue   provided(指代码只存在于编译器，运行期间代码是废弃的)
+    compileOnly 'com.google.auto.value:auto-value-annotations:1.6.2'
+    annotationProcessor "com.google.auto.value:auto-value:1.6.2"
+
+    //沉浸式状态栏
+    api 'com.gyf.immersionbar:immersionbar:3.0.0-beta03'
+    api 'com.gyf.immersionbar:immersionbar-components:3.0.0-beta03'
+
+
+    //字体图标库
+    api 'com.joanzapata.iconify:android-iconify-ionicons:2.2.2'
+    api 'com.joanzapata.iconify:android-iconify-meteocons:2.2.2'
+    api 'com.joanzapata.iconify:android-iconify-fontawesome:2.2.2'
+
+
+
+
+    //RecyclerView分割线
+    api 'com.github.fondesa:recycler-view-divider:3.0.0'
+    api 'de.hdodenhof:circleimageview:3.0.0'
+
+    //日志打印
+    api 'com.orhanobut:logger:2.2.0'
+
+    //Json依赖
+    api 'com.alibaba:fastjson:1.2.57'
+
+
+    //litepal
+    api 'org.litepal.android:java:3.0.0'
+
+    //网络请求加AvLoader
+    api 'com.github.Petterpx:RxRetifoitUtils:v1.4'
+
+    //EvenBus
+    api 'org.greenrobot:eventbus:3.1.1'
+
+    //Rxbinding
+    api 'com.jakewharton.rxbinding3:rxbinding:3.0.0'
+    api 'com.jakewharton.rxbinding3:rxbinding-appcompat:3.0.0'
+    api 'com.jakewharton.rxbinding3:rxbinding-viewpager:3.0.0'
+
+    //导入jetPack相应依赖
+
+    def lifecycle_version = "2.0.0"
+    def nav_version = "2.1.0-beta02"
+    api "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
+    // Java
+    api "androidx.navigation:navigation-fragment:$nav_version"
+    api "androidx.navigation:navigation-ui:$nav_version"
+
+    //图片选择
+    api 'com.lwkandroid:ImagePicker:1.4.4'
+}
