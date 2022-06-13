@@ -11,6 +11,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.appcompat.widget.Toolbar;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
@@ -21,13 +23,23 @@ import com.lwkandroid.imagepicker.utils.GlideImagePickerDisplayer;
 import com.petterp.latte_core.mvp.factory.CreatePresenter;
 import com.petterp.latte_core.mvp.base.BaseFragment;
 import com.petterp.latte_core.util.file.FileUtil;
+import com.petterp.latte_core.util.litepal.UserInfo;
 import com.petterp.latte_ec.R;
 import com.petterp.latte_ec.R2;
+import com.petterp.latte_ec.main.data.DataStore;
 import com.petterp.latte_ec.main.home.MessageItems;
 import com.petterp.latte_ec.main.login.iview.ICreateUserView;
 
 import org.greenrobot.eventbus.EventBus;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -57,6 +69,8 @@ public class CreateUserDelegate extends BaseFragment<LoginCreatePresenter> imple
     private String mSex = "男";
     @BindView(R2.id.bar_user_create)
     Toolbar toolbar = null;
+    @BindView(R2.id.edit_user_create_phone)
+    AppCompatEditText editPhone = null;
     @BindView(R2.id.edit_user_create_name)
     AppCompatEditText editName = null;
     @BindView(R2.id.edit_user_create_pswd)
@@ -86,9 +100,10 @@ public class CreateUserDelegate extends BaseFragment<LoginCreatePresenter> imple
     }
 
     @OnClick(R2.id.btn_login_login)
-    void createUser() {
+    void createUser(){
         String name = editName.getText().toString().trim();
         String pswd = editPswd.getText().toString().trim();
+        String phone = editPhone.getText().toString().trim();
         if (name.equals("")) {
             editName.setError("用户名不能为空");
             return;
@@ -99,12 +114,15 @@ public class CreateUserDelegate extends BaseFragment<LoginCreatePresenter> imple
         }
 
         HashMap<Object, String> map = new HashMap<>();
-        map.put(MuiltFileds.USER_ACCOUNT, CreateUserDelegateArgs.fromBundle(getArguments()).getPhone());
+        map.put(MuiltFileds.USER_ACCOUNT, phone);
         map.put(MuiltFileds.USER_PSWD, pswd);
         map.put(MuiltFileds.USER_NAME, name);
         map.put(MuiltFileds.USER_ICON_URL, imgUrl);
         map.put(MuiltFileds.USER_SEX, mSex);
         map.put(MuiltFileds.USER_ACCOUNT_MODE, "0");
+        Object jsonO=JSON.toJSON(map);
+        DataStore.data.put(phone,jsonO);
+        System.out.println(JSON.toJSONString(DataStore.data));
         getPresenter().setSave(map);
         Toast.makeText(getContext(), "注册成功", Toast.LENGTH_SHORT).show();
         EventBus.getDefault().post(new MessageItems(1));

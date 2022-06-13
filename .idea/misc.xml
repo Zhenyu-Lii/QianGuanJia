@@ -8,6 +8,70 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/example/src/main/res/layout/delegate_example.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/example/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.403" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_core/src/main/res/drawable/btn_border.xml" value="0.403" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_core/src/main/res/drawable/btn_border_nativephoto.xml" value="0.403" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_core/src/main/res/drawable/btn_border_takephoto.xml" value="0.403" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_core/src/main/res/drawable/progressbar_orange_selector.xml" value="0.403" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_core/src/main/res/layout/banner_layout.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_core/src/main/res/layout/botton_item_icon_text_layout.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_core/src/main/res/layout/delegate_bottom.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_core/src/main/res/layout/dialog_camera_panel.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_core/src/main/res/layout/item_multipe_banner.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_core/src/main/res/layout/item_multipe_banner_layout.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_core/src/main/res/layout/item_multipe_image.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_core/src/main/res/layout/item_multipe_image_text.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_core/src/main/res/layout/item_multiple_text.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_core/src/main/res/layout/layout_webview.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/drawable/login_btn_back.xml" value="0.403" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/activity_main.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/arrow_add_consume_compile.xml" value="0.4036458333333333" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/arrow_add_vp_consume.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/arrow_detail_collect.xml" value="0.4036458333333333" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/arrow_detail_top.xml" value="0.4036458333333333" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/arrow_dia_anaylsis_bill.xml" value="0.4036458333333333" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/arrow_dia_header_list.xml" value="0.4036458333333333" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/arrow_dia_time_list.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/arrow_rv_foot_view.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/arrows_witch_layout.xml" value="0.4036458333333333" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/delegate_add.xml" value="0.4036458333333333" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/delegate_data_analysis.xml" value="0.21302083333333333" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/delegate_home.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/delegate_intro.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/delegate_login_login.xml" value="0.26851851851851855" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/delegate_login_register.xml" value="0.4" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/delegate_login_user.xml" value="0.17239583333333333" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/delegate_login_user_create.xml" value="0.1962962962962963" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/delegate_report.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/delegate_setting.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/dia_anlysis_date.xml" value="0.264" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/dia_home_delete.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/dialog_home_info.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/dialog_rv_item_delegate.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/draw_layout.xml" value="0.264" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/item_add_compile_list.xml" value="0.4" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/item_add_rv_addiation.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/item_analysis_bill_rv.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/item_detail_bill.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/item_draw_text.xml" value="0.6" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/item_index_detail_header.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/item_index_detail_list.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/item_rv_header_list.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/item_vp_consume_list.xml" value="0.176" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/layout/test_fragment.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ec/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ui/src/main/res/layout/delegate_index.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ui/src/main/res/layout/dia_date_layout.xml" value="0.2" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ui/src/main/res/layout/dialog_edit.xml" value="0.4" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ui/src/main/res/layout/dialog_image_click_panel.xml" value="0.2" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ui/src/main/res/layout/dialog_message.xml" value="0.4036458333333333" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ui/src/main/res/layout/dialog_radiogroup.xml" value="0.4" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ui/src/main/res/layout/item_multiple_banner.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ui/src/main/res/layout/item_multiple_image.xml" value="0.14356884057971014" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ui/src/main/res/layout/item_multiple_image_text.xml" value="0.4036458333333333" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ui/src/main/res/layout/item_multiple_settings_text.xml" value="0.4036458333333333" />
+        <entry key="..\:/Jetbrains Android Studio projects/QianGuanJia/latte_ui/src/main/res/layout/item_multiple_text.xml" value="0.14356884057971014" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/LittleRecord/example/src/main/res/drawable/ic_launcher_background.xml" value="0.19375" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/LittleRecord/latte_core/src/main/res/layout/banner_layout.xml" value="0.17760416666666667" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/LittleRecord/latte_core/src/main/res/layout/botton_item_icon_text_layout.xml" value="0.17760416666666667" />

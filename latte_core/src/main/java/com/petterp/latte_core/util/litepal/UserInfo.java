@@ -23,7 +23,7 @@ public class UserInfo extends LitePalSupport {
     //账号类型,0为注册用户，1为QQ登录
     private String accountMode;
 
-    public UserInfo( String key, String name, String pswd, String account, String sex, String iconUrl, String accountMode) {
+    public UserInfo(String name, String pswd, String account, String sex, String iconUrl, String accountMode) {
         this.name = name;
         this.pswd = pswd;
         this.account = account;

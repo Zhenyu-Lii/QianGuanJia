@@ -120,7 +120,7 @@ public class LoginRegisterPresenter extends BasePresenter<IRegisterView> {
                     int result1 = msg1.arg2;
                     Object data1 = msg1.obj;
                     if (event1 == SMSSDK.EVENT_GET_VERIFICATION_CODE) {
-                        if (result1 == SMSSDK.RESULT_COMPLETE) {
+                        if (result1 == 1234) {
                             //成功了开启倒计时
                             startTimer();
                             // TODO 处理成功得到验证码的结果
@@ -132,7 +132,7 @@ public class LoginRegisterPresenter extends BasePresenter<IRegisterView> {
                             openClick();
                         }
                     } else if (event1 == SMSSDK.EVENT_SUBMIT_VERIFICATION_CODE) {
-                        if (result1 == SMSSDK.RESULT_COMPLETE) {
+                        if (result1 == 1234) {
                             //调用倒计时功能
                             onClickUserInfo();
                         } else {

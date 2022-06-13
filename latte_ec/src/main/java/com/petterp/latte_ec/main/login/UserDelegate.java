@@ -91,6 +91,25 @@ public class UserDelegate extends BaseFragment<LoginUserPresenter> implements IU
         fragmentUP();
     }
 
+    @OnClick(R2.id.to_setting)
+    void gotoSetting(){
+        fragmentStart(R.id.action_userDelegate_to_settingDelegate);
+    }
+
+    @OnClick(R2.id.to_intro)
+    void gotoIntro(){
+        fragmentStart(R.id.action_userDelegate_to_introDelegate);
+    }
+
+    @OnClick(R2.id.to_report)
+    void gotoReport(){
+        fragmentStart(R.id.action_userDelegate_to_reportDelegate);
+    }
+
+    @OnClick(R2.id.to_data_analysis)
+    void gotoDataAnalysis(){
+        fragmentStart(R.id.action_userDelegate_to_dataAnalysisDelegate);
+    }
 
     @Override
     public Object setLayout() {

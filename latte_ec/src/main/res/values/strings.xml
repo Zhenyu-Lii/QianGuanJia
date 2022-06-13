@@ -27,6 +27,7 @@
     <string name="register_tv_user">创建新账号</string>
     <string name="register_tv_code">获取验证码</string>
     <string name="register_btn_next_step">下一步</string>
+    <string name="edit_user_create_phone">您的电话号码</string>
     <string name="edit_user_create_name">起个好听的名字吧</string>
     <string name="edit_create_user_pswd">密码(6-16位)</string>
     <string name="user_sex">性别</string>
@@ -49,4 +50,8 @@
     <string name="dia_rv_item_update">修改</string>
     <string name="dia_rv_item_delegate">删除</string>
     <string name="analysis_bootom_text">———————到底了———————</string>
+    <string name="data_analysis">数据分析</string>
+    <string name="report">报告</string>
+    <string name="settings">设置</string>
+    <string name="intro">软件信息</string>
 </resources>

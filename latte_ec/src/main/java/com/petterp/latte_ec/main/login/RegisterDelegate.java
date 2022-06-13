@@ -43,22 +43,6 @@ public class RegisterDelegate extends BaseFragment<LoginRegisterPresenter> imple
     private LoginRegisterPresenter presenter;
     private String phone = null;
 
-
-    @OnClick(R2.id.btn_register_next)
-    void onNext() {
-        String code = editCode.getText().toString().trim();
-        phone = editPhone.getText().toString().trim();
-        if (!PhoneUtil.isMobileNO(phone)) {
-            Toast.makeText(getContext(), "请输入正确的手机号", Toast.LENGTH_SHORT).show();
-        } else if (code.length() != 4) {
-            Toast.makeText(getContext(), "请输入正确的验证码", Toast.LENGTH_SHORT).show();
-        } else {
-            presenter.setCreateCode(code);
-        }
-
-
-    }
-
     @Override
     public Object setLayout() {
         return R.layout.delegate_login_register;
@@ -116,6 +100,6 @@ public class RegisterDelegate extends BaseFragment<LoginRegisterPresenter> imple
     @Override
     public void onDestroy() {
         super.onDestroy();
-        presenter.onDestroy();
+        if(presenter!=null) presenter.onDestroy();
     }
 }
