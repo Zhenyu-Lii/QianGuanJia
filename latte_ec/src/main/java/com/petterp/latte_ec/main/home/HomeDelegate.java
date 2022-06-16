@@ -146,7 +146,7 @@ public class HomeDelegate extends BaseFragment<HomePresenter> implements IHomeVi
 
     @OnClick(R2.id.statistics)
     void toStatistics(){
-        fragmentStart(R.id.action_userDelegate_to_dataAnalysisDelegate);
+        fragmentStart(R.id.action_homeDelegate_to_dataAnalysisDelegate);
     }
 
     @OnClick(R2.id.budget)
