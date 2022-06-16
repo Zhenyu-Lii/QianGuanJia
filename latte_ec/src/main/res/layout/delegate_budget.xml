@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_back"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bar_data_analysis"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        app:layout_collapseMode="pin">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:id="@+id/ic_analysis_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="25sp"
+                android:text="{icon-back}"
+                android:textColor="@android:color/white" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_title_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_28dp"
+                android:gravity="center"
+                android:text="2018年.01月"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ViewStub
+        android:id="@+id/scr_stub_analysis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout="@layout/stub_analysis_data" />
+
+    <ScrollView
+        android:id="@+id/scr_analysis_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/analysis_back_circle"
+                android:paddingTop="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="@dimen/dp_10">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="预算统计"
+                    android:textColor="@color/app_text_color_dark"
+                    android:textSize="18sp" />
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:id="@+id/ic_analysis_magnify"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="{fa-arrows-alt}" />
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/lc_analysis_chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_below="@id/ic_analysis_magnify"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="25dp" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lc_analysis_chart"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/dia_btn_back_circle">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/tv_select_consume"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/analysis_dia_title_left"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="3dp"
+                        android:text="已支出"
+                        android:textSize="13sp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/app_text_color_light" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/tv_select_income"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="3dp"
+                        android:text="剩余预算"
+                        android:textSize="13sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/analysis_back_circle"
+                android:paddingTop="15dp"
+                android:paddingBottom="20dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_income_consume_look"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="30dp"
+                    android:text="预算详情"
+                    android:textColor="@color/app_text_color_dark"
+                    android:textSize="18sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_analysis_income"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_income_consume_look"
+                    android:layout_marginLeft="40dp"
+                    android:text="限额"
+                    android:textColor="@color/app_text_color_light"
+                    android:textSize="17sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_analysis_income_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_analysis_income"
+                    android:layout_alignLeft="@id/tv_analysis_income"
+                    android:layout_marginTop="7dp"
+                    android:text="0"
+                    android:textColor="@color/app_text_color_dark"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_analysis_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_income_consume_look"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="40dp"
+                    android:text="余额"
+                    android:textColor="@color/app_text_color_light"
+                    android:textSize="17sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_analysis_balance_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_analysis_balance"
+                    android:layout_alignRight="@id/tv_analysis_balance"
+                    android:layout_marginTop="7dp"
+                    android:text="0"
+                    android:textColor="@color/app_text_color_dark"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_analysis_consume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_analysis_income_money"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="已支出"
+                    android:textColor="@color/app_text_color_light"
+                    android:textSize="17sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_analysis_consume_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_analysis_consume"
+                    android:layout_alignLeft="@id/tv_analysis_consume"
+                    android:layout_marginTop="7dp"
+                    android:text="0"
+                    android:textColor="@color/app_text_color_dark"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_analysis_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_analysis_balance_money"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="40dp"
+                    android:text="日平均"
+                    android:textColor="@color/app_text_color_light"
+                    android:textSize="17sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_analysis_day_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_analysis_day"
+                    android:layout_alignRight="@id/tv_analysis_balance"
+                    android:layout_marginTop="7dp"
+                    android:text="0"
+                    android:textColor="@color/app_text_color_dark"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <View
+                android:paddingTop="@dimen/dp_10"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/app_back" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0F1F2" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:gravity="center"
+                android:text="@string/analysis_bootom_text"
+                android:textColor="@color/app_text_color_light"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
