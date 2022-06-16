@@ -129,6 +129,15 @@ public class HomeDelegate extends BaseFragment<HomePresenter> implements IHomeVi
         recyclerView.addOnItemTouchListener(new HomeItemClickListener(getChildFragmentManager(), mPresenter));
     }
 
+    @OnClick(R2.id.my)
+    void toMy(){
+        fragmentStart(R.id.action_homeDelegate_to_userDelegate);
+    }
+
+    @OnClick(R2.id.imageView3)
+    void toAdd(){
+        fragmentStart(R.id.action_homeDelegate_to_addDelegate);
+    }
 
     @Override
     public void updateRv() {

@@ -34,7 +34,7 @@
         android:layout_below="@id/tv_analysis_pie_kind"
         android:layout_toLeftOf="@id/tv_analysis_pie_sum"
         android:layout_toRightOf="@id/ic_analysis_pie_icon"
-        android:background="@drawable/analysis_pie_item_back" />
+        android:background="@drawable1/analysis_pie_item_back" />
 -->
     <ProgressBar
         android:id="@+id/view_analysis_pie"
