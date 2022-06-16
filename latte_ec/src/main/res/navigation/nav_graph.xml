@@ -162,6 +162,13 @@
             app:exitAnim="@anim/dialog_left_out"
             app:popEnterAnim="@anim/dialog_left_in"
             app:popExitAnim="@anim/dialog_right_out"/>
+        <action
+            android:id="@+id/action_userDelegate_to_loginDelegate"
+            app:destination="@id/loginDelegate"
+            app:enterAnim="@anim/dialog_right_in"
+            app:exitAnim="@anim/dialog_left_out"
+            app:popEnterAnim="@anim/dialog_left_in"
+            app:popExitAnim="@anim/dialog_right_out"/>
     </fragment>
     <fragment
         android:id="@+id/dataAnalysisDelegate"

@@ -328,6 +328,17 @@
         android:textColor="@android:color/holo_red_light"
         android:textSize="18sp" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login_after"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="登录"
+        android:textColor="@color/app_title_color"
+        android:textSize="18sp"/>
+
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -111,6 +111,11 @@ public class UserDelegate extends BaseFragment<LoginUserPresenter> implements IU
         fragmentStart(R.id.action_userDelegate_to_dataAnalysisDelegate);
     }
 
+    @OnClick(R2.id.btn_login_after)
+    void gotoLogin(){
+        fragmentStart(R.id.action_userDelegate_to_loginDelegate);
+    }
+
     @Override
     public Object setLayout() {
         return R.layout.delegate_login_user;
