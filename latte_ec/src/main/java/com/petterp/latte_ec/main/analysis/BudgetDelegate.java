@@ -69,8 +69,6 @@ public class BudgetDelegate extends BaseFragment<DataAnalysisPresenter> implemen
     AppCompatTextView tvSelectConsume = null;
     @BindView(R2.id.tv_select_income)
     AppCompatTextView tvSelectIncome = null;
-    @BindView(R2.id.pie_analysis_chart)
-    PieChart pieChart = null;
     @BindView(R2.id.rv_analysis_classify)
     RecyclerView rvClassify = null;
     @BindView(R2.id.rv_analysis_bill)
@@ -113,7 +111,6 @@ public class BudgetDelegate extends BaseFragment<DataAnalysisPresenter> implemen
     @Override
     public void onBindView(@Nullable Bundle savedInstanceState, @NonNull View rootView) {
         infoInConsume();
-        infoPieClassify();
         infoDayBill();
     }
 
@@ -241,36 +238,7 @@ public class BudgetDelegate extends BaseFragment<DataAnalysisPresenter> implemen
     }
 
     @SuppressLint("Range")
-    private void infoPieClassify() {
-        pieChart.setCenterText("消费比例");
-        pieChart.setCenterTextColor(Color.parseColor("#566974"));
-        pieChart.setCenterTextSize(15f);
-        pieChart.setTransparentCircleAlpha(100);
-        pieChart.getLegend().setEnabled(false);
-        pieChart.setAlpha(150);
-        pieChart.getDescription().setEnabled(false);
-        pieChart.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
-            @Override
-            public void onValueSelected(Entry e, Highlight h) {
-                String kind = (String) e.getData();
-                pieChart.setCenterText(kind + getPresenter().classifyPieMoney(kind));
-            }
 
-            @Override
-            public void onNothingSelected() {
-                pieChart.setCenterText("消费比例");
-            }
-        });
-
-        analysisAdapter = new DataAnalysisClassifyAdapter(getPresenter().classifyRvList());
-        rvClassify.setAdapter(analysisAdapter);
-        rvClassify.setLayoutManager(new LinearLayoutManager(getContext()));
-        RecyclerViewDivider.with(Objects.requireNonNull(getContext()))
-                .color(Color.parseColor("#F0F1F2"))
-                .size(2)
-                .build().addTo(rvClassify);
-        rvClassify.addOnItemTouchListener(new DataClassifyItemClickListener(getPresenter(), getFragmentManager()));
-    }
 
     @Override
     public void setClassifyBill(List<PieEntry> pieList) {
@@ -290,8 +258,6 @@ public class BudgetDelegate extends BaseFragment<DataAnalysisPresenter> implemen
         set.setValueTextColor(Color.WHITE);
         set.setColors(colors);
         PieData data = new PieData(set);
-        pieChart.setData(data);
-        pieChart.invalidate();
         analysisAdapter.notifyDataSetChanged();
     }
 
