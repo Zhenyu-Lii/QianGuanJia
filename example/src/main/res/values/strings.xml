@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">宁小记</string>
+    <string name="app_name">钱学家</string>
     <array name="add_consume_kind_names">
         <item>"三餐"</item>
         <item>"零食"</item>

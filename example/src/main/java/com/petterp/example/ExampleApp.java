@@ -2,7 +2,6 @@ package com.petterp.example;
 
 import android.app.Application;
 import android.os.Handler;
-import android.util.Log;
 
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
 import com.mob.MobSDK;
@@ -12,12 +11,10 @@ import com.petterp.latte_core.util.litepal.ClassifyConsume;
 import com.petterp.latte_core.util.litepal.ClassifyIncome;
 import com.petterp.latte_ec.icon.FontEcModule;
 
-import org.greenrobot.eventbus.EventBus;
 import org.litepal.LitePal;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 
 
 /**

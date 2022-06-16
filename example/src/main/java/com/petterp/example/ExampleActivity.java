@@ -23,6 +23,7 @@ public class ExampleActivity extends BaseActivity implements IfinderPaintf {
 
     private SoftReference<View> fragment;
 
+
     @Override
     public int getLayout() {
         return R.layout.activity_main;
