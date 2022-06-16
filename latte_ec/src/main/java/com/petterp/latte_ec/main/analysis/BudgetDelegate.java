@@ -69,8 +69,6 @@ public class BudgetDelegate extends BaseFragment<DataAnalysisPresenter> implemen
     AppCompatTextView tvSelectConsume = null;
     @BindView(R2.id.tv_select_income)
     AppCompatTextView tvSelectIncome = null;
-    @BindView(R2.id.tv_select_inconsume)
-    AppCompatTextView tvSelectInconsume = null;
     @BindView(R2.id.pie_analysis_chart)
     PieChart pieChart = null;
     @BindView(R2.id.rv_analysis_classify)
@@ -87,25 +85,6 @@ public class BudgetDelegate extends BaseFragment<DataAnalysisPresenter> implemen
     private DataAnalysisBillAdapter billAdapter;
     private View stubView;
 
-    @OnClick({R2.id.tv_select_consume, R2.id.tv_select_income, R2.id.tv_select_inconsume})
-    public void setInConsumeBack(View view) {
-        if (view.getId() == R.id.tv_select_consume) {
-            tvSelectConsume.setBackgroundResource(R.drawable.analysis_dia_title_left);
-            tvSelectIncome.setBackgroundColor(Color.TRANSPARENT);
-            tvSelectInconsume.setBackgroundColor(Color.TRANSPARENT);
-            setMode(MONEY_CONSUME);
-        } else if (view.getId() == R.id.tv_select_income) {
-            tvSelectConsume.setBackgroundColor(Color.TRANSPARENT);
-            tvSelectIncome.setBackgroundColor(Color.parseColor("#93A8B1"));
-            tvSelectInconsume.setBackgroundColor(Color.TRANSPARENT);
-            setMode(MONEY_INCOME);
-        } else {
-            tvSelectConsume.setBackgroundColor(Color.TRANSPARENT);
-            tvSelectIncome.setBackgroundColor(Color.TRANSPARENT);
-            tvSelectInconsume.setBackgroundResource(R.drawable.analysis_dia_title_right);
-            setMode(MONEY_INCONSUME);
-        }
-    }
 
     private List<List<Entry>> lists;
     private List<String> times;
