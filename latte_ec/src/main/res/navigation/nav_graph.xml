@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/homeDelegate">
+    app:startDestination="@id/loginDelegate">
 
     <fragment
         android:id="@+id/homeDelegate"
@@ -99,6 +99,13 @@
             app:exitAnim="@anim/dialog_left_out"
             app:popEnterAnim="@anim/dialog_left_in"
             app:popExitAnim="@anim/dialog_right_out" />
+        <action
+            android:id="@+id/action_loginDelegate_to_homeDelegate"
+            app:destination="@id/homeDelegate"
+            app:enterAnim="@anim/dialog_right_in"
+            app:exitAnim="@anim/dialog_left_out"
+            app:popEnterAnim="@anim/dialog_left_in"
+            app:popExitAnim="@anim/dialog_right_out"/>
     </fragment>
     <fragment
         android:id="@+id/registerDelegate"
@@ -135,6 +142,13 @@
         <argument
             android:name="phone"
             app:argType="string" />
+        <action
+            android:id="@+id/action_createUserDelegate_to_homeDelegate2"
+            app:destination="@id/homeDelegate"
+            app:enterAnim="@anim/dialog_right_in"
+            app:exitAnim="@anim/dialog_left_out"
+            app:popEnterAnim="@anim/dialog_left_in"
+            app:popExitAnim="@anim/dialog_right_out"/>
     </fragment>
     <fragment
         android:id="@+id/userDelegate"

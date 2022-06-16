@@ -68,7 +68,7 @@ public class LoginDelegate extends BaseFragment<LoginPresenter> implements ILogi
             System.out.println(map);
             getPresenter().setSave(map);
             EventBus.getDefault().post(new MessageItems(1));
-            fragmentStartToA(R.id.homeDelegate);
+            fragmentStart(R.id.action_loginDelegate_to_homeDelegate);
         }
     }
 

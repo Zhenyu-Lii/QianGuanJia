@@ -126,7 +126,7 @@ public class CreateUserDelegate extends BaseFragment<LoginCreatePresenter> imple
         getPresenter().setSave(map);
         Toast.makeText(getContext(), "注册成功", Toast.LENGTH_SHORT).show();
         EventBus.getDefault().post(new MessageItems(1));
-        fragmentStartToA(R.id.homeDelegate);
+        fragmentStart(R.id.action_createUserDelegate_to_homeDelegate);
     }
 
 
