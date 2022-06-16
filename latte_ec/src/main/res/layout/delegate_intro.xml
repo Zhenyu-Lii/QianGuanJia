@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_gravity="top"
-        android:background="@color/app_title_color"
+        android:background="@android:color/holo_orange_dark"
         app:layout_collapseMode="pin">
 
         <com.joanzapata.iconify.widget.IconTextView
