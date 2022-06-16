@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">钱学家</string>
+    <string name="app_name">LatteEc</string>
     <string name="sign_up">注册</string>
     <string name="sign_in">登录</string>
     <string name="sign_up_email">请输入邮箱</string>
