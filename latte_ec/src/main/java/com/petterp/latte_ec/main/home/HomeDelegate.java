@@ -144,7 +144,15 @@ public class HomeDelegate extends BaseFragment<HomePresenter> implements IHomeVi
         homeAdapter.notifyDataSetChanged();
     }
 
+    @OnClick(R2.id.statistics)
+    void toStatistics(){
+        fragmentStart(R.id.action_userDelegate_to_dataAnalysisDelegate);
+    }
 
+    @OnClick(R2.id.budget)
+    void toBudget(){
+        fragmentStart(R.id.action_homeDelegate_to_delegate_budget);
+    }
 
     @Override
     public void updateItem() {
