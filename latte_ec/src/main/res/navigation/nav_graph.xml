@@ -32,13 +32,6 @@
             app:popEnterAnim="@anim/dialog_left_in"
             app:popExitAnim="@anim/dialog_right_out" />
         <action
-            android:id="@+id/action_homeDelegate_to_dataAnalysisDelegate"
-            app:destination="@id/dataAnalysisDelegate"
-            app:enterAnim="@anim/dialog_right_in"
-            app:exitAnim="@anim/dialog_left_out"
-            app:popEnterAnim="@anim/dialog_left_in"
-            app:popExitAnim="@anim/dialog_right_out" />
-        <action
             android:id="@+id/action_homeDelegate_to_reportDelegate"
             app:destination="@id/reportDelegate"
             app:enterAnim="@anim/dialog_right_in"
@@ -66,6 +59,12 @@
             app:exitAnim="@anim/dialog_left_out"
             app:popEnterAnim="@anim/dialog_left_in"
             app:popExitAnim="@anim/dialog_right_out"/>
+        <action
+            android:id="@+id/action_homeDelegate_to_delegate_budget"
+            app:destination="@id/delegate_budget" />
+        <action
+            android:id="@+id/action_homeDelegate_to_dataAnalysisDelegate"
+            app:destination="@id/dataAnalysisDelegate" />
     </fragment>
     <fragment
         android:id="@+id/addDelegate"
@@ -179,6 +178,11 @@
         android:id="@+id/reportDelegate"
         android:name="com.petterp.latte_ec.main.report.ReportDelegate"
         android:label="ReportDelegate"
+        tools:layout="@layout/delegate_report" />
+    <fragment
+        android:id="@+id/delegate_budget"
+        android:name="com.petterp.latte_ec.main.analysis.BudgetDelegate"
+        android:label="BudgetDelegate"
         tools:layout="@layout/delegate_report" />
     <fragment
         android:id="@+id/introDelegate"
