@@ -69,12 +69,7 @@ public class BudgetDelegate extends BaseFragment<DataAnalysisPresenter> implemen
     AppCompatTextView tvSelectConsume = null;
     @BindView(R2.id.tv_select_income)
     AppCompatTextView tvSelectIncome = null;
-    @BindView(R2.id.rv_analysis_classify)
-    RecyclerView rvClassify = null;
-    @BindView(R2.id.rv_analysis_bill)
-    RecyclerView rvBill = null;
-    @BindView(R2.id.tv_analysis_day_consume)
-    AppCompatTextView tvDayConsume = null;
+
     @BindView(R2.id.scr_stub_analysis)
     ViewStub viewStub = null;
     @BindView(R2.id.scr_analysis_data)
@@ -242,41 +237,15 @@ public class BudgetDelegate extends BaseFragment<DataAnalysisPresenter> implemen
 
     @Override
     public void setClassifyBill(List<PieEntry> pieList) {
-        PieDataSet set = new PieDataSet(pieList, "");
-        int size = pieList.size();
-        List<Integer> colors = new ArrayList<>();
-        for (int i = 0; i < size; i++) {
-            colors.add(Color.parseColor(ColorsUtils.getRandColor()));
-        }
-        set.setValueFormatter(new ValueFormatter() {
-            @Override
-            public String getFormattedValue(float value) {
-                return decimalFormat.format(value);
-            }
-        });
-        set.setValueTextSize(13f);
-        set.setValueTextColor(Color.WHITE);
-        set.setColors(colors);
-        PieData data = new PieData(set);
-        analysisAdapter.notifyDataSetChanged();
+   
     }
 
     private void infoDayBill() {
-        billAdapter = new DataAnalysisBillAdapter(getPresenter().billRvList());
-        rvBill.setAdapter(billAdapter);
-        rvBill.setLayoutManager(new LinearLayoutManager(getContext()));
-        RecyclerViewDivider.with(Objects.requireNonNull(getContext()))
-                .color(Color.parseColor("#F0F1F2"))
-                .size(2)
-                .build().addTo(rvBill);
-        rvBill.addOnItemTouchListener(new DataBillItemClickListener(getPresenter(), getFragmentManager()));
     }
 
     @SuppressLint("SetTextI18n")
     @Override
     public void setDayBill() {
-        tvDayConsume.setText("平均每日支出：" + decimalFormat2.format(getPresenter().getBillScaleMoney()));
-        billAdapter.notifyDataSetChanged();
     }
 
     @Override
