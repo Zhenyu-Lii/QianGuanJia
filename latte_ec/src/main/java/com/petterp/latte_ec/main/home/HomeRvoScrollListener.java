@@ -20,10 +20,10 @@ public class HomeRvoScrollListener extends RecyclerView.OnScrollListener {
     public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
         super.onScrolled(recyclerView, dx, dy);
         if (dy > 0) {
-            iHomeRvListener.hideFlootButton();
+//            iHomeRvListener.hideFlootButton();
         }
         if (dy < 0) {
-            iHomeRvListener.showFlootButton();
+//            iHomeRvListener.showFlootButton();
         }
     }
 }

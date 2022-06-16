@@ -87,7 +87,7 @@ public class HomePresenter extends BasePresenter<IHomeView> {
 
     private void floatButtonListener() {
         if (iView != null) {
-            iView.FloatButtonListener();
+//            iView.FloatButtonListener();
         }
     }
 
@@ -153,7 +153,7 @@ public class HomePresenter extends BasePresenter<IHomeView> {
 
     private void showDraw() {
         if (iView != null) {
-            iView.showDrawInfo();
+//            iView.showDrawInfo();
         }
     }
 
@@ -185,7 +185,7 @@ public class HomePresenter extends BasePresenter<IHomeView> {
     public void modeState(MessageItems messageItems) {
         if (messageItems.getMode() == 1) {
             if (iView != null) {
-                iView.updateDrawUser();
+//                iView.updateDrawUser();
             }
         } else {
             MultipleItemEntity itemEntity = messageItems.getItemEntity();
@@ -208,7 +208,7 @@ public class HomePresenter extends BasePresenter<IHomeView> {
             }
             showUpdateInfo();
             if (iView != null) {
-                iView.updateDrawKeySum();
+//                iView.updateDrawKeySum();
             }
         }
     }

@@ -55,16 +55,15 @@
                     android:padding="2dp"
                     app:srcCompat="@drawable/welcome" />
 
-                <TextView
-                    android:id="@+id/textView2"
+                <TextClock
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
-
-                <TextClock
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:format24Hour="yyyy 年 MM 月 dd 日 hh 时 mm 分 ss 秒"/>
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/textview_border"
+                    android:format12Hour="yyyy年MM月dd日EEEE"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:textColor="@android:color/white" />
 
             </LinearLayout>
         </RelativeLayout>
@@ -120,27 +119,35 @@
                     android:id="@+id/card_num"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="LJR19121725127"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
 
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="余额："
-                    android:textColor="@android:color/white"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:layout_marginBottom="25dp"
+                    android:baselineAligned="true"
+                    android:orientation="horizontal">
 
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@+id/tv_index_tob_surplus"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:textColor="@android:color/white"
-                    android:textSize="25sp"
-                    tools:ignore="HardcodedText" />
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="余额："
+                        android:textColor="@android:color/white"
+                        android:textSize="30sp"
+                        android:textStyle="normal" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/tv_index_tob_surplus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|center_vertical"
+                        android:textColor="@android:color/white"
+                        android:textSize="28sp"
+                        android:textStyle="normal"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -166,19 +173,19 @@
                             android:layout_height="wrap_content"
                             android:text="+"
                             android:textColor="@android:color/white"
-                            android:textSize="18sp"
+                            android:textSize="27sp"
                             android:textStyle="bold"
                             tools:ignore="HardcodedText" />
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="80dp"
-                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/text_outcome"
-                            android:layout_width="match_parent"
+                            android:layout_width="85dp"
                             android:layout_height="wrap_content"
                             android:text="支出"
                             android:textColor="@android:color/white"
@@ -186,12 +193,11 @@
 
                         <androidx.appcompat.widget.AppCompatTextView
                             android:id="@+id/tv_index_tob_consume"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginRight="50dp"
                             android:text="-"
                             android:textColor="@android:color/white"
-                            android:textSize="18sp"
+                            android:textSize="27sp"
                             android:textStyle="bold"
                             tools:ignore="HardcodedText" />
                     </LinearLayout>
