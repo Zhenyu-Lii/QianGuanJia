@@ -79,20 +79,22 @@
             <Button
                 android:id="@+id/index"
                 android:layout_width="98.5dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="bottom|center"
                 android:background="@android:color/white"
-                android:drawableTop="@mipmap/index"
+                android:drawableTop="@drawable/ic_vector"
+                android:includeFontPadding="false"
                 android:shadowColor="@color/app_main"
                 android:text="首页"
-                android:textColor="@color/index_add_text_color" />
+                android:textColor="@color/app_main" />
 
             <Button
                 android:id="@+id/statistics"
                 android:layout_width="98.5dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="bottom|center"
                 android:background="@android:color/white"
+                android:drawableTop="@drawable/ic_chart_line"
                 android:padding="0dp"
                 android:shadowColor="@color/app_main"
                 android:text="统计"
@@ -110,10 +112,10 @@
             <Button
                 android:id="@+id/budget"
                 android:layout_width="98.5dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="bottom|center"
                 android:background="@android:color/white"
-                android:drawableTop="@mipmap/budget"
+                android:drawableTop="@drawable/ic_vector__1_"
                 android:shadowColor="@color/app_main"
                 android:text="预算"
                 android:textColor="@color/index_add_text_color" />
@@ -121,10 +123,10 @@
             <Button
                 android:id="@+id/my"
                 android:layout_width="98.5dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="bottom|center"
                 android:background="@android:color/white"
-                android:drawableTop="@mipmap/index"
+                android:drawableTop="@drawable/ic_vector__2_"
                 android:text="我的"
                 android:textColor="@color/index_add_text_color" />
         </LinearLayout>
