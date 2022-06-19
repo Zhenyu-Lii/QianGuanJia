@@ -85,7 +85,7 @@ public class AddTopRvItemDelegate extends BaseFragment<AddTopRvItemPresenter> im
             floatingActionButton.setBackgroundTintList(ColorStateList.valueOf(Color.RED));
         } else {
             viewPager.setCurrentItem(1);
-            floatingActionButton.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#4A90F2")));
+            floatingActionButton.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#06F985")));
         }
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -100,7 +100,7 @@ public class AddTopRvItemDelegate extends BaseFragment<AddTopRvItemPresenter> im
                     floatingActionButton.setBackgroundTintList(ColorStateList.valueOf(Color.RED));
                 } else {
                     category = IHomeTitleRvItems.INCOME;
-                    floatingActionButton.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#4A90F2")));
+                    floatingActionButton.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#06F985")));
                 }
             }
 

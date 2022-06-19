@@ -43,7 +43,7 @@ public class RecordListAdapter extends MultipleRecyclearAdapter {
                 if (entity.getField(IHomeRvFields.KIND).equals(name)) {
                     icon.setTextColor(Color.WHITE);
                     icon.setBackgroundResource(R.drawable.item_vp_add_up);
-                    kind.setTextColor(Color.parseColor("#ff0099cc"));
+                    kind.setTextColor(Color.parseColor("#ff8840"));
                     mode = false;
                 }
             }

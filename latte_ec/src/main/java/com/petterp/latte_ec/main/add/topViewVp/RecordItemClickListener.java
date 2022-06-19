@@ -33,7 +33,7 @@ public class RecordItemClickListener extends SimpleClickListener {
         textView = view.findViewById(R.id.tv_item_vp_consume_title);
         iconTextView.setBackgroundResource(R.drawable.item_vp_add_up);
         iconTextView.setTextColor(Color.WHITE);
-        textView.setTextColor(Color.parseColor("#ff0099cc"));
+        textView.setTextColor(Color.parseColor("#ff8840"));
         mode = position;
         iRvItemKind.setPosition(position);
         iRvItemKind.setKinds(new String[]{entity.getField(MultipleFidls.NAME), entity.getField(IHomeRvFields.KIND)});

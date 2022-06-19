@@ -52,7 +52,7 @@ public class IntroItemClcikListener extends SimpleClickListener {
             oks.setPlatform(platform);
         }
         // title标题，印象笔记、邮箱、信息、微信、人人网和QQ空间使用
-        oks.setTitle("宁小记");
+        oks.setTitle("钱学家");
         // titleUrl是标题的网络链接，仅在Linked-in,QQ和QQ空间使用
         oks.setTitleUrl("https://github.com/Petterpx/LittleRecord/blob/master/README.md");
         // text是分享文本，所有平台都需要这个字段

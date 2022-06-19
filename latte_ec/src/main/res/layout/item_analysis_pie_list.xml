@@ -38,15 +38,14 @@
 -->
     <ProgressBar
         android:id="@+id/view_analysis_pie"
+        style="@android:style/Widget.ProgressBar.Horizontal"
         android:layout_width="match_parent"
         android:layout_height="4dp"
-        android:max="1000"
         android:layout_below="@id/tv_analysis_pie_kind"
-        style="@android:style/Widget.ProgressBar.Horizontal"
-        android:progressDrawable="@drawable/abalysis_pie_back2"
         android:layout_toLeftOf="@id/tv_analysis_pie_sum"
         android:layout_toRightOf="@id/ic_analysis_pie_icon"
-         />
+        android:max="1000"
+        android:progressDrawable="@drawable/abalysis_pie_back2" />
 
     <ImageView
         android:id="@+id/img_analysis_right"

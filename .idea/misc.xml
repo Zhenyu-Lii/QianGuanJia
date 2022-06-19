@@ -81,6 +81,10 @@
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_core/src/main/res/layout/botton_item_icon_text_layout.xml" value="0.24114583333333334" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_core/src/main/res/layout/delegate_bottom.xml" value="0.24114583333333334" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_core/src/main/res/layout/dialog_camera_panel.xml" value="0.24114583333333334" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/drawable/index_add_compile_tb.xml" value="0.196875" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/drawable/report_edit.xml" value="0.1675925925925926" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/arrow_add_consume_compile.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/arrow_add_vp_consume.xml" value="0.1793478260869565" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/delegate_add.xml" value="0.24114583333333334" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/delegate_add_top_item.xml" value="0.24114583333333334" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/delegate_budget.xml" value="0.335" />
@@ -88,11 +92,36 @@
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/delegate_home.xml" value="0.11" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/delegate_intro.xml" value="0.24114583333333334" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/delegate_login_login.xml" value="0.24114583333333334" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/delegate_login_register.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/delegate_login_user.xml" value="0.25" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/delegate_login_user_create.xml" value="0.1793478260869565" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/delegate_report.xml" value="0.24114583333333334" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/delegate_report_webview.xml" value="0.24114583333333334" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/delegate_setting.xml" value="0.1793478260869565" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/dia_analysis_bill.xml" value="0.24114583333333334" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/dia_anlysis_date.xml" value="0.24114583333333334" />
         <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/dia_home_delete.xml" value="0.24114583333333334" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/dialog_analysis_pie_rv.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/dialog_home_info.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/dialog_rv_item_delegate.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/dialog_rv_item_select.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/draw_layout.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/item_add_compile_list.xml" value="0.25" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/item_add_rv_addiation.xml" value="0.45" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/item_analysis_bill_rv.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/item_analysis_pie_dia.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/item_analysis_pie_list.xml" value="0.335" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/item_detail_bill.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/item_draw_text.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/item_index_detail_header.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/item_index_detail_list.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/item_index_list.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/item_rv_header_list.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/item_vp_consume_list.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/item_vp_flooter_list.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/stub_analysis_data.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ec/src/main/res/layout/test_fragment.xml" value="0.1793478260869565" />
+        <entry key="..\:/ProgramData/Android/AndroidStudioProjects/QianGuanJia/latte_ui/src/main/res/layout/delegate_index.xml" value="0.1793478260869565" />
       </map>
     </option>
   </component>
