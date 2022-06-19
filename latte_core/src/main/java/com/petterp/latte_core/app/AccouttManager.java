@@ -2,11 +2,6 @@ package com.petterp.latte_core.app;
 
 import com.petterp.latte_core.util.storage.LatterPreference;
 
-/**
- * @author Petterp on 2019/4/21
- * Summary:用户登录后的调用状态
- * email：1509492795@qq.com
- */
 public class AccouttManager {
     private enum SignTag{
         SIGN_TAG

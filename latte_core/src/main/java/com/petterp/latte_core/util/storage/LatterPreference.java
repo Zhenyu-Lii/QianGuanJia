@@ -9,9 +9,9 @@ import com.petterp.latte_core.app.Latte;
 
 
 /**
- * @author Petterp on 2019/4/20
+ * @ author Zhenyu on 2022/4/20
  * Summary:
- * email：1509492795@qq.com
+ * email： 1023927274@qq.com
  */
 public final class LatterPreference {
     /**

@@ -7,8 +7,8 @@ import com.petterp.latte_ec.main.add.AddPresenter;
 
 /**
  * 监听Top ViewPager滑动
- * @author by Petterp
- * @date 2019-07-24
+ * @ author Zhenyu
+ * @date 2022-04-24
  */
 public class RecordOnPageChangeListener implements ViewPager.OnPageChangeListener {
 

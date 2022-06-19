@@ -19,8 +19,8 @@ import java.util.List;
 import butterknife.BindView;
 
 /**
- * @author by petterp
- * @date 2019-08-16
+ * @ author Zhenyu
+ * @date 2022-05-16
  */
 public class SettingDelegate extends BaseFragment {
     @BindView(R2.id.bar_setting)

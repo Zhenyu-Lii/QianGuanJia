@@ -25,14 +25,6 @@ import com.petterp.latte_core.mvp.view.IBaseView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
-/**
- * Fragment基类
- * 处理了Fragment返回事件，适用于JetPack Navigation
- * 根据Fragment的需求重写 setBackMode()-是否重写返回键,setBackPress()-具体实现的需求,postBackEvens()-通知Activity即将到来的返回事件拦截
- *
- * @author by Petterp
- * @date 2019-08-03
- */
 public abstract class BaseFragment<P extends BasePresenter> extends Fragment implements IBaseView, BaseActivity.IBackPress {
     private P presenter = null;
     private Unbinder unbinder = null;

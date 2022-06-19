@@ -1,7 +1,7 @@
 package com.petterp.latte_ec.main.add.BootomCompile;
 
 /**
- * @author by Petterp
+ * @ author Zhenyu
  * @date 2019-07-16
  */
 public class CompileListItemType  {

@@ -5,9 +5,9 @@ import com.petterp.latte_ui.recyclear.MultipleItemEntity;
 import java.util.List;
 
 /**
- * @author Petterp on 2019/8/24
+ * @ author Zhenyu on 2022/4/24
  * Summary:
- * 邮箱：1509492795@qq.com
+ * 邮箱： 1023927274@qq.com
  */
 public interface IAddTopRvItemModel {
     List<MultipleItemEntity> consumeList();

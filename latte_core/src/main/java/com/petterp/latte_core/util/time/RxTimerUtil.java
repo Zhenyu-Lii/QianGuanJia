@@ -19,8 +19,8 @@ import io.reactivex.schedulers.Schedulers;
 
 /**
  * 设置相应时间后执行某操作
- * @author by Petterp
- * @date 2019-08-01
+ * @ author Zhenyu
+ * @date 2022-05-01
  */
 public class RxTimerUtil {
 

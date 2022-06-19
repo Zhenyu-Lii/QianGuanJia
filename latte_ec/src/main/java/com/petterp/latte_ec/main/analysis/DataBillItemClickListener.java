@@ -10,8 +10,8 @@ import com.petterp.latte_ec.main.analysis.dia.DataBillRvItem;
 import com.petterp.latte_ui.recyclear.MultipleItemEntity;
 
 /**
- * @author by petterp
- * @date 2019-08-14
+ * @ author Zhenyu
+ * @date 2022-05-14
  */
 public class DataBillItemClickListener extends SimpleClickListener {
 

@@ -4,11 +4,6 @@ package com.petterp.latte_core.mvp.factory;
 import com.petterp.latte_core.mvp.presenter.BasePresenter;
 import com.petterp.latte_core.mvp.view.IBaseView;
 
-/**
- * 注解工厂
- * @author by Petterp
- * @date 2019-08-03
- */
 public class PresenterFactoryImpl<V extends IBaseView, P extends BasePresenter<V>> implements PresenterFactory<V, P> {
 
     /**

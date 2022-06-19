@@ -5,7 +5,7 @@ import com.petterp.latte_ui.R;
 /**
  * 动画样式
  *
- * @author by petterp
+ * @ author Zhenyu
  * @date 2019-08-07
  */
 public final class AnimStyle {

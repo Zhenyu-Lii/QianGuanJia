@@ -1,8 +1,8 @@
 package com.petterp.latte_ec.main.home;
 
 /**
- * @author by Petterp
- * @date 2019-07-24
+ * @ author Zhenyu
+ * @date 2022-04-24
  */
 public  class IHomeTitleRvItems {
     public static final String CONSUME = "支出";

@@ -4,7 +4,7 @@ import com.joanzapata.iconify.Icon;
 import com.joanzapata.iconify.IconFontDescriptor;
 
 /**
- * Auther: Petterp on 2019/4/14
+ * Auther: Petterp on 2022/4/14
  * Summary: //字体封装类
  */
 public class FontEcModule implements IconFontDescriptor {

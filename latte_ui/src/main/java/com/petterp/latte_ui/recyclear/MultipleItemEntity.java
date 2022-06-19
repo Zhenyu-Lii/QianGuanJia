@@ -7,9 +7,9 @@ import java.lang.ref.SoftReference;
 import java.util.LinkedHashMap;
 
 /**
- * @author Petterp on 2019/4/23
+ * @ author Zhenyu on 2019/4/23
  * Summary:Item的样式->与MulitpleItemEntity建造者
- * 邮箱：1509492795@qq.com
+ * 邮箱： 1023927274@qq.com
  */
 public class MultipleItemEntity implements MultiItemEntity {
 

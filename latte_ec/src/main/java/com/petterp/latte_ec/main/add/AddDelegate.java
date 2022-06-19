@@ -36,8 +36,8 @@ import java.util.Objects;
 import butterknife.BindView;
 
 /**
- * @author by Petterp
- * @date 2019-07-24
+ * @ author Zhenyu
+ * @date 2022-04-24
  */
 @CreatePresenter(AddPresenter.class)
 public class AddDelegate extends BaseFragment<AddPresenter> implements IAddView {

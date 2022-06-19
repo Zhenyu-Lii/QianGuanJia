@@ -8,11 +8,6 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * RxUtils工具类
- * @author by petterp
- * @date 2019-08-26
- */
 public class RxUtils {
     private Disposable disposable;
     private RxUtils(){

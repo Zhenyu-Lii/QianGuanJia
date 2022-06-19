@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * <p>
  * 高并发场景下System.currentTimeMillis()的性能问题的优化
  * </p>
- * @author Petterp
+ * @ author Zhenyu
  */
 public class SystemClock {
 

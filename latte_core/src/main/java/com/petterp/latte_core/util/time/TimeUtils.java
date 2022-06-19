@@ -10,7 +10,7 @@ import java.util.Date;
 /**
  * 获取时间工具类
  *
- * @author by Petterp
+ * @ author Zhenyu
  * @date 2019-07-19
  */
 @SuppressLint("SimpleDateFormat")

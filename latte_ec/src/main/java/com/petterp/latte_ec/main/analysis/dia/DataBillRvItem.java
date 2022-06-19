@@ -21,8 +21,8 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @author by petterp
- * @date 2019-08-14
+ * @ author Zhenyu
+ * @date 2022-05-14
  */
 public class DataBillRvItem extends DialogFragment {
     private List<MultipleItemEntity> list;

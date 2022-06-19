@@ -3,8 +3,8 @@ package com.petterp.latte_ec.main.login.iview;
 import com.petterp.latte_core.mvp.view.IBaseView;
 
 /**
- * @author by Petterp
- * @date 2019-07-31
+ * @ author Zhenyu
+ * @date 2022-04-31
  */
 public interface IRegisterView extends IBaseView {
 

@@ -1,8 +1,8 @@
 package com.petterp.latte_ec.main.analysis;
 
 /**
- * @author by petterp
- * @date 2019-08-13
+ * @ author Zhenyu
+ * @date 2022-05-13
  */
 public class DataAnalysisItemType {
     public static final int DATA_ANALYSIS_PIE_LIST = 550;

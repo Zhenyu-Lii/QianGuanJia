@@ -12,7 +12,7 @@ import org.greenrobot.eventbus.ThreadMode;
 import java.util.List;
 
 /**
- * @author by petterp
+ * @ author Zhenyu
  */
 public class DataAnalysisPresenter extends BasePresenter<IDataAnalysisView> {
     private IDataAnalysisView view;

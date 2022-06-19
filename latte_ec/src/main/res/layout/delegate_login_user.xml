@@ -289,7 +289,7 @@
         android:layout_height="1dp"
         android:background="@color/app_back" />
 
-    <RelativeLayout
+    <!--<RelativeLayout
         android:id="@+id/to_intro"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_40"
@@ -316,7 +316,7 @@
             android:textSize="16sp"
             tools:ignore="RtlSymmetry" />
     </RelativeLayout>
-
+    -->
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_login_user_account"
         android:layout_width="match_parent"

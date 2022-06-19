@@ -51,8 +51,8 @@ import de.hdodenhof.circleimageview.CircleImageView;
 /**
  * 注册详细界面
  *
- * @author by Petterp
- * @date 2019-08-01
+ * @ author Zhenyu
+ * @date 2022-05-01
  */
 @CreatePresenter(LoginCreatePresenter.class)
 public class CreateUserDelegate extends BaseFragment<LoginCreatePresenter> implements ICreateUserView {

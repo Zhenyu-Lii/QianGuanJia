@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.navigation.NavDirections;
 
 /**
- * @author by Petterp
+ * @ author Zhenyu
  * @date 2019-08-03
  */
 public interface IBaseView {

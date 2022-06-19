@@ -16,8 +16,8 @@ import butterknife.BindView;
 
 /**
  * Intro WebViewDelegate
- * @author by petterp
- * @date 2019-08-21
+ * @ author Zhenyu
+ * @date 2022-05-21
  */
 public class IntroWebDelegate extends BaseFragment {
     @BindView(R2.id.bar_web_report)

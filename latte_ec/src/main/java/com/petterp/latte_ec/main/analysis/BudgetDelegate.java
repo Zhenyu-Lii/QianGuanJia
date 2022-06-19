@@ -45,12 +45,6 @@ import java.util.Objects;
 import butterknife.BindView;
 import butterknife.OnClick;
 
-/**
- * 数据分析 V
- *
- * @author by petterp
- * @date 2019-08-08
- */
 @CreatePresenter(DataAnalysisPresenter.class)
 public class BudgetDelegate extends BaseFragment<DataAnalysisPresenter> implements IDataAnalysisView {
     @BindView(R2.id.tv_title_date)

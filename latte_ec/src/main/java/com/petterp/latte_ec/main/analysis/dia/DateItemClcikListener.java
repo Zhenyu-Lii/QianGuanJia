@@ -13,8 +13,8 @@ import com.petterp.latte_ui.recyclear.MultipleItemEntity;
 import org.greenrobot.eventbus.EventBus;
 
 /**
- * @author by petterp
- * @date 2019-08-10
+ * @ author Zhenyu
+ * @date 2022-05-10
  */
 public class DateItemClcikListener extends SimpleClickListener {
 

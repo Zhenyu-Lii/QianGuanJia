@@ -9,8 +9,8 @@ import com.petterp.latte_ui.recyclear.MultipleViewHolder;
 import java.util.List;
 
 /**
- * @author by Petterp
- * @date 2019-07-30
+ * @ author Zhenyu
+ * @date 2022-04-30
  */
 public class DrawAdapter extends MultipleRecyclearAdapter {
     /**

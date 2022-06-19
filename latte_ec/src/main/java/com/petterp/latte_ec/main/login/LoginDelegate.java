@@ -35,8 +35,8 @@ import cn.sharesdk.tencent.qq.QQ;
 /**
  * 登录
  *
- * @author by Petterp
- * @date 2019-07-30
+ * @ author Zhenyu
+ * @date 2022-04-30
  */
 @CreatePresenter(LoginPresenter.class)
 public class LoginDelegate extends BaseFragment<LoginPresenter> implements ILoginView, PlatformActionListener {

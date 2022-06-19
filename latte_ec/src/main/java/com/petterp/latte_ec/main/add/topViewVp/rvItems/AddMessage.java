@@ -3,9 +3,9 @@ package com.petterp.latte_ec.main.add.topViewVp.rvItems;
 import com.petterp.latte_ec.main.add.AddItemFileds;
 
 /**
- * @author Petterp on 2019/8/25
+ * @ author Zhenyu on 2022/4/25
  * Summary:AddMessage mode=0为add,mode=1为update,mode=2为delegate
- * 邮箱：1509492795@qq.com
+ * 邮箱： 1023927274@qq.com
  */
 public class AddMessage {
     private AddItemFileds mode;

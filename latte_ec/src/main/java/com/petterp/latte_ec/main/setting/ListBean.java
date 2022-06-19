@@ -4,8 +4,8 @@ import com.chad.library.adapter.base.entity.MultiItemEntity;
 
 /**
  * 布局转化
- * @author by petterp
- * @date 2019-08-22
+ * @ author Zhenyu
+ * @date 2022-05-22
  */
 public class ListBean implements MultiItemEntity {
 

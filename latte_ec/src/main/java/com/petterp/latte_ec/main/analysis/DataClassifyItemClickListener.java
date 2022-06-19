@@ -10,8 +10,8 @@ import com.petterp.latte_ec.main.analysis.dia.DataClassifyRvItem;
 import com.petterp.latte_ui.recyclear.MultipleItemEntity;
 
 /**
- * @author by petterp
- * @date 2019-08-13
+ * @ author Zhenyu
+ * @date 2022-05-13
  */
 public class DataClassifyItemClickListener extends SimpleClickListener {
 

@@ -5,8 +5,8 @@ import java.util.HashMap;
 /**
  * 用户信息 数据层
  *
- * @author by petterp
- * @date 2019-08-06
+ * @ author Zhenyu
+ * @date 2022-05-06
  */
 public interface IUserModel {
 

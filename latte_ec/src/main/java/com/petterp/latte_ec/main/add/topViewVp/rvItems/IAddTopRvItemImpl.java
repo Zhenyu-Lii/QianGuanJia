@@ -16,9 +16,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Petterp on 2019/8/24
+ * @ author Zhenyu on 2022/4/24
  * Summary:
- * 邮箱：1509492795@qq.com
+ * 邮箱： 1023927274@qq.com
  */
 public class IAddTopRvItemImpl implements IAddTopRvItemModel {
 

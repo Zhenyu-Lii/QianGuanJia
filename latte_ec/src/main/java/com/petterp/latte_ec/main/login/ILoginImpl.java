@@ -8,7 +8,7 @@ import com.petterp.latte_ec.main.login.imodel.ILoginModel;
 import cn.sharesdk.framework.Platform;
 
 /**
- * @author by petterp
+ * @ author Zhenyu
  * @date 2019-08-15
  */
 public class ILoginImpl implements ILoginModel {

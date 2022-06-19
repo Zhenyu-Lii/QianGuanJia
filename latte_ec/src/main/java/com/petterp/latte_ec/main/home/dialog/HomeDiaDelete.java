@@ -20,8 +20,8 @@ import com.petterp.latte_ec.R;
 /**
  * Dialog delete
  *
- * @author by Petterp
- * @date 2019-07-29
+ * @ author Zhenyu
+ * @date 2022-04-29
  */
 public class HomeDiaDelete extends DialogFragment {
     private IDialogTextListener deleteListener;

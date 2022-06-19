@@ -19,8 +19,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author by Petterp
- * @date 2019-07-24
+ * @ author Zhenyu
+ * @date 2022-04-24
  */
 public class IAddImpl implements IAddModel {
     private String mode = IAddTitleItems.CONSUME_ITEMS;

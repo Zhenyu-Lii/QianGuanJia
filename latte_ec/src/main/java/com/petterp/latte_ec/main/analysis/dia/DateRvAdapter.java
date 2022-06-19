@@ -11,8 +11,8 @@ import com.petterp.latte_ui.recyclear.MultipleViewHolder;
 import java.util.List;
 
 /**
- * @author by petterp
- * @date 2019-08-10
+ * @ author Zhenyu
+ * @date 2022-05-10
  */
 public class DateRvAdapter extends MultipleRecyclearAdapter {
 

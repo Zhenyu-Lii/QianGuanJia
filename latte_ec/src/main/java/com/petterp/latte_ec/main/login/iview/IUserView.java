@@ -5,8 +5,8 @@ import com.petterp.latte_core.mvp.view.IBaseView;
 /**
  * 用户详细信息-view
  *
- * @author by petterp
- * @date 2019-08-06
+ * @ author Zhenyu
+ * @date 2022-05-06
  */
 public interface IUserView extends IBaseView {
 

@@ -1,8 +1,8 @@
 package com.petterp.latte_core.util.exception;
 
 /**
- * @author by Petterp
- * @date 2019-07-29
+ * @ author Zhenyu
+ * @date 2022-04-29
  */
 public class ExecptionFiels {
     public static final String KEY_LITE_PAL_ADD_ERROR = "LITE_PAL_ADD_ERROR";

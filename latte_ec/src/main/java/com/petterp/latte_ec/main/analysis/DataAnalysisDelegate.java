@@ -48,8 +48,8 @@ import butterknife.OnClick;
 /**
  * 数据分析 V
  *
- * @author by petterp
- * @date 2019-08-08
+ * @ author Zhenyu
+ * @date 2022-05-08
  */
 @CreatePresenter(DataAnalysisPresenter.class)
 public class DataAnalysisDelegate extends BaseFragment<DataAnalysisPresenter> implements IDataAnalysisView {

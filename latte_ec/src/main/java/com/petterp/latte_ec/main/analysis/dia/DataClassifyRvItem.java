@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @author by Petterp
+ * @ author Zhenyu
  * @date 2019-07-29
  */
 public class DataClassifyRvItem extends DialogFragment {

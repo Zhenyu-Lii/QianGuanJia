@@ -31,7 +31,7 @@ import com.petterp.latte_core.util.edittext.SoftHideBoardUtils;
 import com.petterp.latte_ui.R;
 
 /**
- * @author by petterp
+ * @ author Zhenyu
  * @date 2019-08-06
  */
 public class BaseDialogFragment extends DialogFragment {

@@ -1,8 +1,8 @@
 package com.petterp.latte_ec.main.home;
 
 /**
- * @author by Petterp
- * @date 2019-07-28
+ * @ author Zhenyu
+ * @date 2022-04-28
  */
 public class IHomeStateType {
     public static final int ADD = 396;

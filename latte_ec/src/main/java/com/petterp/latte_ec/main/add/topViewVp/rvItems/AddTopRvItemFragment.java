@@ -17,8 +17,8 @@ import com.petterp.latte_ui.recyclear.MultipleItemEntity;
 import java.util.List;
 
 /**
- * @author by petterp
- * @date 2019-08-24
+ * @ author Zhenyu
+ * @date 2022-05-24
  */
 public class AddTopRvItemFragment extends Fragment {
     private List<MultipleItemEntity> list;

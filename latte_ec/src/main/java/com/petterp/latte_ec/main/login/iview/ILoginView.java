@@ -4,8 +4,8 @@ import com.petterp.latte_core.mvp.view.IBaseView;
 
 /**
  * view -> login
- * @author by Petterp
- * @date 2019-07-30
+ * @ author Zhenyu
+ * @date 2022-04-30
  */
 public interface ILoginView extends IBaseView {
 

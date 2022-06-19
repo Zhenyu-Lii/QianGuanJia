@@ -17,14 +17,6 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
-
-/**
- * P层基类
- * 使用RxJava 进行数据的读取，然后刷新ui.
- *
- * @author by Petterp
- * @date 2019-08-03
- */
 public abstract class BasePresenter<V extends IBaseView> implements DefaultLifecycleObserver {
 
     private Reference<V> mView;

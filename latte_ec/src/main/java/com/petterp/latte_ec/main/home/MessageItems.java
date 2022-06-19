@@ -4,8 +4,8 @@ import com.petterp.latte_ui.recyclear.MultipleItemEntity;
 
 /**
  * mode=1代表update Draw操作。add=0,即默认代表add操作
- * @author by Petterp
- * @date 2019-07-24
+ * @ author Zhenyu
+ * @date 2022-04-24
  */
 public class MessageItems {
     //所需的item

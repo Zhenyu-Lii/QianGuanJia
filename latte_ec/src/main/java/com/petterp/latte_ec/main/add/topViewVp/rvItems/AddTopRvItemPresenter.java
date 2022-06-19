@@ -22,8 +22,8 @@ import java.util.List;
 /**
  * AddTop Rv -> P
  *
- * @author by petterp
- * @date 2019-08-24
+ * @ author Zhenyu
+ * @date 2022-05-24
  */
 public class AddTopRvItemPresenter extends BasePresenter<IAddTopRvItemView> {
     private IAddTopRvItemView mView;

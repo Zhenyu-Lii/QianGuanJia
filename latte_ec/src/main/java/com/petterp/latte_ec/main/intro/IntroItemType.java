@@ -1,7 +1,7 @@
 package com.petterp.latte_ec.main.intro;
 
 /**
- * @author by petterp
+ * @ author Zhenyu
  * @date 2019-08-17
  */
 public class IntroItemType {

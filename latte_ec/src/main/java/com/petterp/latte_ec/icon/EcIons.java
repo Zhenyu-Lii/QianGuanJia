@@ -3,7 +3,7 @@ package com.petterp.latte_ec.icon;
 import com.joanzapata.iconify.Icon;
 
 /**
- * Auther: Petterp on 2019/4/14
+ * Auther: Petterp on 2022/4/14
  * Summary:引用第三方字体
  */
 public enum EcIons implements Icon {

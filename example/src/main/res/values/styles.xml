@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="SplashTheme" parent="AppTheme">
-        <item name="android:windowBackground">@mipmap/app_laucher</item>
+        <!--<item name="android:windowBackground">@mipmap/app_laucher</item>-->
         <item name="android:windowFullscreen">true</item>
         <item name="windowNoTitle">true</item>
         <item name="android:navigationBarColor" tools:ignore="NewApi">@android:color/transparent</item>

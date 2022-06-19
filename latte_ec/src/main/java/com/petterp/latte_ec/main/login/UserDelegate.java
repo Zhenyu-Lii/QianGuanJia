@@ -33,8 +33,8 @@ import de.hdodenhof.circleimageview.CircleImageView;
 import static com.petterp.latte_ec.main.login.CreateUserDelegate.REQUEST_OPTIONS;
 
 /**
- * @author by petterp
- * @date 2019-08-06
+ * @ author Zhenyu
+ * @date 2022-05-06
  */
 @CreatePresenter(LoginUserPresenter.class)
 public class UserDelegate extends BaseFragment<LoginUserPresenter> implements IUserView {
@@ -94,11 +94,6 @@ public class UserDelegate extends BaseFragment<LoginUserPresenter> implements IU
     @OnClick(R2.id.to_setting)
     void gotoSetting(){
         fragmentStart(R.id.action_userDelegate_to_settingDelegate);
-    }
-
-    @OnClick(R2.id.to_intro)
-    void gotoIntro(){
-        fragmentStart(R.id.action_userDelegate_to_introDelegate);
     }
 
     @OnClick(R2.id.to_report)

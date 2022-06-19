@@ -6,11 +6,6 @@ import java.lang.ref.ReferenceQueue;
 import java.util.HashMap;
 import java.util.WeakHashMap;
 
-/**
- * @author Petterp on 2019/6/15
- * Summary:全局Callback工具
- * email：1509492795@qq.com
- */
 public class CallbackManager {
     public static final HashMap<Object, IGlobalCallback> CALLBACKS = new HashMap<>();
 

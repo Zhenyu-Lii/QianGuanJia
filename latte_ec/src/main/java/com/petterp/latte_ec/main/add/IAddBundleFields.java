@@ -5,8 +5,8 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * @author by Petterp
- * @date 2019-07-27
+ * @ author Zhenyu
+ * @date 2022-04-27
  */
 public class IAddBundleFields implements Parcelable {
     private String name;

@@ -3,8 +3,8 @@ package com.petterp.latte_ec.main.login.imodel;
 import java.util.HashMap;
 
 /**
- * @author by petterp
- * @date 2019-08-05
+ * @ author Zhenyu
+ * @date 2022-05-05
  */
 public interface ICreateUserModel {
     /**

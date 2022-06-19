@@ -3,9 +3,8 @@ package com.petterp.latte_ui.recyclear;
 import java.util.LinkedHashMap;
 
 /**
- * @author Petterp on 2019/4/23
- * Summary: 是 MultipleFilds 的一个建造者
- * 邮箱：1509492795@qq.com
+ * @ author Zhenyu on 2019/4/23
+ * 邮箱：1023927274@qq.com
  */
 public class MultipleEntityBuilder {
     private static final LinkedHashMap<Object, Object> FIELDS = new LinkedHashMap<>();

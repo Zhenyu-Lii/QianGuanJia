@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 /**
  * 手机号码检验
- * @author petterp
+ * @ author Zhenyu
  */
 public class PhoneUtil {
     /**

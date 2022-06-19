@@ -24,8 +24,8 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 
 /**
- * @author by petterp
- * @date 2019-08-16
+ * @ author Zhenyu
+ * @date 2022-05-16
  */
 public class ReportDelegate extends BaseFragment {
     @BindView(R2.id.bar_report)
@@ -50,13 +50,13 @@ public class ReportDelegate extends BaseFragment {
         tvRest.setBackgroundResource(R.drawable.report_text_up);
         int id = view.getId();
         if (id == R.id.text_report_error) {
-            tvError.setTextColor(Color.parseColor("#2A9BF2"));
+            tvError.setTextColor(Color.parseColor("#FF8800"));
             tvError.setBackgroundResource(R.drawable.report_text_to);
         } else if (id == R.id.text_report_suggest) {
-            tvsuggest.setTextColor(Color.parseColor("#2A9BF2"));
+            tvsuggest.setTextColor(Color.parseColor("#FF8800"));
             tvsuggest.setBackgroundResource(R.drawable.report_text_to);
         } else {
-            tvRest.setTextColor(Color.parseColor("#2A9BF2"));
+            tvRest.setTextColor(Color.parseColor("#FF8800"));
             tvRest.setBackgroundResource(R.drawable.report_text_to);
         }
     }

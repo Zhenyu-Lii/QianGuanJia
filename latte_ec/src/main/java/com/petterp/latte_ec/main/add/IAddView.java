@@ -5,8 +5,8 @@ import android.os.Bundle;
 import com.petterp.latte_core.mvp.view.IBaseView;
 
 /**
- * @author by Petterp
- * @date 2019-07-24
+ * @ author Zhenyu
+ * @date 2022-04-24
  */
 public interface IAddView extends IBaseView {
 

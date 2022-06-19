@@ -15,8 +15,8 @@ import cn.sharesdk.framework.Platform;
 
 /**
  * login -> 控制层
- * @author by Petterp
- * @date 2019-07-30
+ * @ author Zhenyu
+ * @date 2022-04-30
  */
 public class LoginPresenter extends BasePresenter<ILoginView> {
     private ILoginView iLoginView;

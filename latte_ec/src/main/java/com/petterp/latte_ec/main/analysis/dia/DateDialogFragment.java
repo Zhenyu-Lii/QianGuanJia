@@ -35,8 +35,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author by petterp
- * @date 2019-08-09
+ * @ author Zhenyu
+ * @date 2022-05-09
  */
 public class DateDialogFragment extends DialogFragment implements View.OnClickListener, TabLayout.BaseOnTabSelectedListener {
     private AnalyMessages messages;

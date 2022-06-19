@@ -1,9 +1,9 @@
 package com.petterp.latte_ec.main.add;
 
 /**
- * @author Petterp on 2019/8/27
+ * @ author Zhenyu on 2022/4/27
  * Summary:
- * 邮箱：1509492795@qq.com
+ * 邮箱： 1023927274@qq.com
  */
 public class AddRvDataMessage {
     private AddItemFileds mode;

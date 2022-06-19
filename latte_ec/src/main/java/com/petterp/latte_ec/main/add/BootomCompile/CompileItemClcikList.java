@@ -23,8 +23,8 @@ import java.text.DecimalFormat;
 /**
  * 输入账单的点击事件
  *
- * @author by Petterp
- * @date 2019-07-16
+ * @ author Zhenyu
+ * @date 2022-04-16
  */
 public class CompileItemClcikList extends SimpleClickListener {
     private final StringBuilder TEXT_BUILDER;

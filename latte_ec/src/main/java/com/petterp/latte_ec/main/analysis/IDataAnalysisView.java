@@ -10,8 +10,8 @@ import java.util.List;
 /**
  * 数据分析View
  *
- * @author by petterp
- * @date 2019-08-08
+ * @ author Zhenyu
+ * @date 2022-05-08
  */
 public interface IDataAnalysisView extends IBaseView {
 

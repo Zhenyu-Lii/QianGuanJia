@@ -6,8 +6,8 @@ import android.view.View;
 
 /**
  * EditText弹出软键盘监听
- * @author by Petterp
- * @date 2019-07-15
+ * @ author Zhenyu
+ * @date 2022-04-15
  */
 public class SoftKeyBoardListener {
     private View rootView;//activity的根视图

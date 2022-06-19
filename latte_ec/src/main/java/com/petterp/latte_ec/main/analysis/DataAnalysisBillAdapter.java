@@ -9,8 +9,8 @@ import java.text.DecimalFormat;
 import java.util.List;
 
 /**
- * @author by petterp
- * @date 2019-08-14
+ * @ author Zhenyu
+ * @date 2022-05-14
  */
 public class DataAnalysisBillAdapter extends MultipleRecyclearAdapter {
     /**

@@ -13,7 +13,7 @@ import java.text.DecimalFormat;
 import java.util.List;
 
 /**
- * @author by petterp
+ * @ author Zhenyu
  * @date 2019-08-13
  */
 public class DataAnalysisClassifyAdapter extends MultipleRecyclearAdapter {

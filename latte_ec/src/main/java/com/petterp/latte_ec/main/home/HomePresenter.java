@@ -18,8 +18,8 @@ import java.util.List;
 /**
  * home-控制层
  *
- * @author by Petterp
- * @date 2019-07-23
+ * @ author Zhenyu
+ * @date 2022-04-23
  */
 public class HomePresenter extends BasePresenter<IHomeView> {
     private IHomeModel iModel;

@@ -10,8 +10,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 /**
  * DrawerLayout 滑动监听
  *
- * @author by Petterp
- * @date 2019-07-25
+ * @ author Zhenyu
+ * @date 2022-04-25
  */
 public class HomeDrawerListener implements DrawerLayout.DrawerListener {
 

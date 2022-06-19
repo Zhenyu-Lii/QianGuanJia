@@ -3,10 +3,10 @@ package com.petterp.latte_ui.recyclear;
 import java.util.ArrayList;
 
 /**
- * @author Petterp on 2019/4/23
+ * @ author Zhenyu on 2019/4/23
  * Summary:数据的转化处理
  * MulitpleItemEntity的基类
- * 邮箱：1509492795@qq.com
+ * 邮箱： 1023927274@qq.com
  */
 public abstract class BaseDataConverter {
 

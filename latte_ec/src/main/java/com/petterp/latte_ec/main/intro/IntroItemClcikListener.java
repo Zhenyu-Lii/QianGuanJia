@@ -11,8 +11,8 @@ import com.petterp.latte_ec.R;
 import cn.sharesdk.onekeyshare.OnekeyShare;
 
 /**
- * @author by petterp
- * @date 2019-08-17
+ * @ author Zhenyu
+ * @date 2022-05-17
  */
 public class IntroItemClcikListener extends SimpleClickListener {
     BaseFragment fragment;

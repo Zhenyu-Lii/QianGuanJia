@@ -2,8 +2,8 @@ package com.petterp.latte_ec.main.add;
 
 /**
  * vp——item标记
- * @author by Petterp
- * @date 2019-07-18
+ * @ author Zhenyu
+ * @date 2022-04-18
  */
 public class IAddTitleItems {
     //消费

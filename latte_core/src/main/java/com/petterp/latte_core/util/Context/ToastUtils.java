@@ -6,11 +6,6 @@ import android.widget.Toast;
 
 import com.petterp.latte_core.app.Latte;
 
-/**
- * @author Petterp on 2019/8/26
- * Summary:
- * 邮箱：1509492795@qq.com
- */
 public class ToastUtils {
     public static void showText(String res) {
         Toast.makeText(Latte.getContext(), res, Toast.LENGTH_SHORT).show();

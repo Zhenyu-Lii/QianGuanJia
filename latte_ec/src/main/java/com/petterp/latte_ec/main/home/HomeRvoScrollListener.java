@@ -5,8 +5,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * 监听Rv滑动改变flootButton
- * @author by Petterp
- * @date 2019-07-24
+ * @ author Zhenyu
+ * @date 2022-04-24
  */
 public class HomeRvoScrollListener extends RecyclerView.OnScrollListener {
 

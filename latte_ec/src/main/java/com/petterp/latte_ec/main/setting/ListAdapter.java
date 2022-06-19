@@ -16,7 +16,7 @@ import com.petterp.latte_ec.R;
 import java.util.List;
 
 /**
- * @author by petterp
+ * @ author Zhenyu
  * @date 2019-08-22
  */
 public class ListAdapter extends BaseMultiItemQuickAdapter<ListBean, BaseViewHolder> {
